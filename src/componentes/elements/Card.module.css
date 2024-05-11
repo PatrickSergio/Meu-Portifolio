@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.card img{
+    align-items: flex-start;
+    margin-left: 5%;
+    width: 450px;
+    
+}
+
+.card img:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+
+.card section{
+    border-radius: 20px;
+    background-color: #01091CBF;
+    width: 600px;
+    height: 210px;
+    margin-left: 3%;
+    padding: 20px;
+    text-align: left;
+}
+
+.card h3{
+    font-size: 25px;
+}
