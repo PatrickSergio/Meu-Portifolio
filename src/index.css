@@ -14,29 +14,3 @@ code {
     monospace;
 }
 
-/* Dispositivos móveis */
-@media only screen and (max-width: 600px) {
-  /* Adicione estilos para dispositivos móveis aqui */
-.container {
-    max-width: 90%;
-    margin: 20px auto;
-  }
-}
-
-/* Tablets */
-@media only screen and (min-width: 601px) and (max-width: 960px) {
-  /* Adicione estilos para tablets aqui */
-.container {
-    max-width: 80%;
-    margin: 30px auto;
-  }
-}
-
-/* Computadores */
-@media only screen and (min-width: 961px) {
-  /* Adicione estilos para computadores aqui */
-.container {
-    max-width: 70%;
-    margin: 40px auto;
-  }
-}
