@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+  /* Ajustar o tamanho da fonte para dispositivos móveis */
+  body {
+    font-size: 16px;
+  }
+
+  /* Ajustar o tamanho do cabeçalho para dispositivos móveis */
+  .header {
+    padding: 20px 0;
+  }
+
+  /* Ajustar o tamanho do título para dispositivos móveis */
+  .header h1 {
+    font-size: 24px;
+  }
+
+  /* Ajustar o tamanho do subtítulo para dispositivos móveis */
+  .header h2 {
+    font-size: 18px;
+  }
+
+  /* Ajustar o tamanho do texto para dispositivos móveis */
+  .about-me p {
+    font-size: 16px;
+  }
+
+  /* Ajustar o tamanho dos ícones das redes sociais para dispositivos móveis */
+  .social-links i {
+    font-size: 24px;
+  }
+
+  /* Ajustar o tamanho das imagens do portfólio para dispositivos móveis */
+  .projects img {
+    width: 100%;
+  }
+
+  /* Ajustar o tamanho do rodapé para dispositivos móveis */
+  .footer {
+    padding: 20px 0;
+  }
+
+  /* Ajustar o tamanho do texto do rodapé para dispositivos móveis */
+  .footer p {
+    font-size: 14px;
+  }
+}
+
