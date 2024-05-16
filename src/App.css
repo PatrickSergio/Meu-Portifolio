@@ -42,6 +42,7 @@
   /* Ajustar o tamanho da fonte para dispositivos móveis */
   body {
     font-size: 16px;
+    background: 100%;
   }
 
   /* Ajustar o tamanho do cabeçalho para dispositivos móveis */
