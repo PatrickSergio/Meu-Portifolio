@@ -16,93 +16,25 @@ code {
 
 
 
-
-/* Skills Section Styles */
-.skills {
-  padding: 2rem;
-}
-
-.skills ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.skills li {
-  margin: 1rem;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  width: calc(33.33% - 2rem);
-}
-
-.skills li:hover {
-  background-color: #f7f7f7;
-  border-color: #ccc;
-}
-
-/* Projects Section Styles */
-.projects {
-  padding: 2rem;
-}
-
-.projects ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.projects li {
-  margin: 1rem;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  width: calc(33.33% - 2rem);
-}
-
-.projects li:hover {
-  background-color: #f7f7f7;
-  border-color: #ccc;
-}
-
-/* Footer Styles */
-.footer {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
-  clear: both;
-}
-
 /* Mobile Specific Styles */
 @media only screen and (max-width: 768px) {
 
   .body{
     width: 100%;
   }
-  .hero {
-    height: 50vh;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero p {
-    font-size: 1.2rem;
-  }
-
-  .skills li {
+  .navbar{
     width: calc(50% - 2rem);
   }
 
-  .projects li {
+  .skills {
+    width: calc(50% - 2rem);
+  }
+
+  .projects {
+    width: calc(50% - 2rem);
+  }
+
+  .footer{
     width: calc(50% - 2rem);
   }
 }
