@@ -16,25 +16,3 @@ code {
 
 
 
-/* Mobile Specific Styles */
-@media only screen and (max-width: 768px) {
-
-  .body{
-    width: 100%;
-  }
-  .navbar{
-    width: calc(50% - 2rem);
-  }
-
-  .skills {
-    width: calc(50% - 2rem);
-  }
-
-  .projects {
-    width: calc(50% - 2rem);
-  }
-
-  .footer{
-    width: calc(50% - 2rem);
-  }
-}
