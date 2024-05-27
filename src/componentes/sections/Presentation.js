@@ -40,7 +40,7 @@ function Presentation() {
 
     return (
         <div className={styles.presentation} id='Presentation'>
-            <h4><strong>Bem-vindo ao meu Portfólio</strong></h4>
+            <h2><strong>Bem-vindo ao meu Portfólio</strong></h2>
             <h1>Olá, eu sou {text} </h1>
             <p>
                 {renderWords("Olá, sou o Patrick, um entusiasta da tecnologia apaixonado")}

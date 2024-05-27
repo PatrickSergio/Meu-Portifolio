@@ -12,7 +12,7 @@ function Navbar() {
             </ul>
             <ul>
                 <a href='https://www.instagram.com/_patricksergio/'><li><FaInstagram size={50}></FaInstagram></li></a>
-                <li><FaLinkedin size={50}></FaLinkedin></li>
+                <a href='https://www.linkedin.com/in/patrick-moraes-477a7b308/'><li><FaLinkedin size={50}></FaLinkedin></li></a>
                <a href='https://github.com/PatrickSergio'><li><FaGithub size={50}></FaGithub></li></a> 
             </ul>
         </div>
