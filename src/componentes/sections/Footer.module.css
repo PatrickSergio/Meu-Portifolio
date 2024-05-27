@@ -4,10 +4,10 @@
     margin-top: 50px;
     padding-right: 100px;
     padding-top: 10px;
-    filter: drop-shadow(2px 2px  rgb(0, 0, 0));
     font-size: 20px;
     background-color: rgba(255, 255, 255, 0.2);
     color:rgb(255, 233, 233);
+    height: 100%;
 
       
 }
@@ -21,17 +21,23 @@
 }
 
 .footer a {
-    color: aliceblue !important;
+    color: rgb(0, 5, 8) !important;
+    text-decoration: none;
 }
 
 .footer li {
     margin-left: 15px;
 }
 .footer li:hover{
-    font-size: 50px;
+    color: aqua;
 }
 
 .footer p {
-    margin: 25px;
+    margin: 20px;
+    color: rgb(0, 5, 8) !important;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
