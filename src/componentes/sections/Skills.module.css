@@ -46,23 +46,3 @@
     z-index: 1;
 }
 
-/* Responsividade para skills */
-@media (max-width: 768px) {
-    .skills {
-        width: 100%;
-        margin-left: 0;
-        padding: 10px;
-    }
-
-    .skills h1 {
-        font-size: 35px;
-    }
-
-    .skills p {
-        font-size: 20px;
-    }
-
-    .skills img {
-        height: 100px;
-    }
-}
