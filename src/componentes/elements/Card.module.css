@@ -30,3 +30,66 @@
 .card h3{
     font-size: 25px;
 }
+
+/* Responsividade para cards */
+@media (max-width: 1200px) {
+    .card img {
+        width: 350px;
+    }
+
+    .card section {
+        width: 500px;
+        height: auto;
+    }
+
+    .card h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img {
+        width: 300px;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .card section {
+        width: 80%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card img {
+        width: 100%;
+    }
+
+    .card section {
+        width: 90%;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card section {
+        padding: 10px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+}
