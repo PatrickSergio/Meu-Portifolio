@@ -9,7 +9,7 @@ import api from '../../image/projects/api.svg'
 function Projects() {
     return (
         <div id="Projects" className={styles.projects}>
-            <h1>Projetos:</h1>
+            <h1><span>Projetos:</span></h1>
             <Card
                 title='LP - DNC'
                 tech='HTML, CSS e JS'

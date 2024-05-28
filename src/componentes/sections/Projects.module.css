@@ -1,10 +1,16 @@
-.projects h1{
-    color: #FFFFFF;
-    font-size: 50px;
-    text-align: left;
-    margin-left: 10%;
-    filter: drop-shadow(3px 3px rgb(75, 4, 82));
-    
+.projects h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600;
+    line-height: 1em;
+    font-size: 80px;
+    background: linear-gradient(180deg, #ffffff, #000000bb); 
+    background-clip: text;
+    color: transparent;
+    margin-right: 60%;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
     
 }
+
+
 
