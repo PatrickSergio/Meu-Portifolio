@@ -12,12 +12,6 @@
     
 }
 
-/* Responsividade para projects */
-@media (max-width: 768px) {
-    .projects h1 {
-        font-size: 40px;
-        margin-right: 10%;
-    }
-}
+
 
 
