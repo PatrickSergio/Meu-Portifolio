@@ -17,3 +17,18 @@
 .word {
     background-color: rgb(0, 0, 0, 0.3);
 }
+
+/* Responsividade para apresentação */
+@media (max-width: 768px) {
+    .presentation {
+        margin-left: 5%;
+    }
+
+    .presentation h1 {
+        font-size: 35px;
+    }
+
+    .presentation p {
+        font-size: 18px;
+    }
+}
