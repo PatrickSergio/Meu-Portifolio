@@ -60,3 +60,20 @@
     color: rgb(73, 73, 73) !important;
     
 }
+
+/* Responsividade para o navbar */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin-left: 0;
+        margin: 5px 0;
+    }
+}
