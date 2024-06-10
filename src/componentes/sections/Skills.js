@@ -10,7 +10,7 @@ import video from '../../image/projects/Background.mp4'
 
 function Skills() {
     return (
-        <div className={styles.skills} id="Skills">
+        <div className={styles.skills} id={styles.container}>
             <video src={video} autoPlay loop muted className={styles.video}></video>
            
             <div className={styles.container}>

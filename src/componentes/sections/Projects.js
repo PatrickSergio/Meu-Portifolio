@@ -8,7 +8,7 @@ import api from '../../image/projects/api.svg'
 
 function Projects() {
     return (
-        <div id="Projects" className={styles.projects}>
+        <div  className={styles.projects} id={styles.container}>
             <h1><span>Projetos:</span></h1>
             <Card
                 title='LP - DNC'

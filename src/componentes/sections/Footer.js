@@ -6,7 +6,7 @@ import styles from './Footer.module.css'
 
 function Footer() {
     return (
-        <div className={styles.footer}>
+        <div className={styles.footer} id={styles.container}>
             <ul>
                 <a href='https://www.instagram.com/_patricksergio/' target="_blank" rel='noreferrer'><li><FaInstagram size={50}></FaInstagram></li></a>
                 <a href='https://www.linkedin.com/in/patrick-moraes-477a7b308/'><li><FaLinkedin size={50}></FaLinkedin></li></a>

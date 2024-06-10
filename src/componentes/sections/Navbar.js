@@ -4,7 +4,7 @@ import NavLink from 'react-bootstrap/esm/NavLink';
 
 function Navbar() {
     return (
-        <div className = {styles.navbar}>
+        <div className={styles.navbar} id={styles.container}>
             <ul>
                 <li><NavLink href='#Presentation'>Apresentação</NavLink></li>
                 <li><NavLink href='#Skills'>Habilidades</NavLink></li>

@@ -39,7 +39,7 @@ function Presentation() {
     };
 
     return (
-        <div className={styles.presentation} id='Presentation'>
+        <div className={styles.presentation} id={styles.container}>
             <h2><strong>Bem-vindo ao meu Portfólio</strong></h2>
             <h1>Olá, eu sou {text} </h1>
             <p>
