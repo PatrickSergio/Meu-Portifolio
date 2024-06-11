@@ -42,9 +42,9 @@
     left: 50%;
     width: 0;
     height: 2px;
-    /* Adjust the thickness of the underline */
+    
     background-color: rgb(255, 255, 255);
-    /* Customize the underline color as needed */
+    
     transition: width 0.4s ease, left 0.4s ease;
     transform: translateX(-50%);
 }
@@ -71,7 +71,7 @@
 
     .navbar ul:first-child {
         display: none;
-        /* Oculta a primeira lista de opções do menu em dispositivos móveis */
+        
     }
 
     .navbar ul:last-child {
@@ -87,3 +87,4 @@
         margin-left: 0;
     }
 }
+

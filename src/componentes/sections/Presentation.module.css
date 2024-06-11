@@ -23,18 +23,18 @@
         text-align: center;
         margin-left: 0;
         padding: 0 10px;
-        /* Adicionando um pequeno preenchimento para evitar que o texto fique muito próximo das bordas */
+        
         font-size: 18px;
-        /* Reduzindo o tamanho da fonte para dispositivos móveis */
-    }
+        
 
     .presentation h1 {
         font-size: 40px;
-        /* Reduzindo o tamanho da fonte do título */
+       
     }
 
     .presentation p {
         font-weight: normal;
-        /* Removendo o peso da fonte bolder */
+        
     }
 }
+

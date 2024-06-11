@@ -34,20 +34,21 @@
 @media screen and (max-width: 768px) {
     .card img {
         width: 100%;
-        /* Fazendo a imagem ocupar toda a largura do contêiner */
+        
         max-width: none;
-        /* Removendo a restrição da largura máxima */
+        
     }
 
     .card section {
         width: 100%;
-        /* Fazendo a seção ocupar toda a largura do contêiner */
+       
         border-radius: 0;
-        /* Removendo o raio da borda */
+      
     }
 
     .card h3 {
         font-size: 20px;
-        /* Reduzindo o tamanho da fonte */
+        
     }
 }
+

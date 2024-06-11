@@ -57,11 +57,14 @@
 @media screen and (max-width: 768px) {
     .footer ul {
         margin-top: 0.5rem;
-        /* Reduzindo o espaçamento superior */
+        
     }
 
     .footer p {
         font-size: 1.2rem;
-        /* Reduzindo o tamanho da fonte */
+        
     }
 }
+
+
+

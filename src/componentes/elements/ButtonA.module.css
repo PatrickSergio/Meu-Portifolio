@@ -21,8 +21,8 @@
 @media screen and (max-width: 768px) {
     .btn {
         width: 150px;
-        /* Reduzindo ainda mais a largura do botão */
+       
         font-size: 12px;
-        /* Reduzindo ainda mais o tamanho da fonte */
+        
     }
 }

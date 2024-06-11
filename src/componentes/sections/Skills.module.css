@@ -52,17 +52,17 @@
         
         padding: 15px;
         margin-right: 1rem;
-        /* Redução do preenchimento */
+       
     }
 
     .skills h1 {
         font-size: 30px;
-        /* Redução do tamanho da fonte */
+        
     }
 
     .skills p {
         font-size: 18px;
-        /* Redução do tamanho da fonte */
+        
     }
 
     .skills img {

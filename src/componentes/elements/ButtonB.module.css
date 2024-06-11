@@ -20,8 +20,8 @@
 @media screen and (max-width: 768px) {
     .btn {
         padding: 6px 12px;
-        /* Reduzindo ainda mais o preenchimento para um tamanho mais compacto */
+        
         font-size: 12px;
-        /* Reduzindo ainda mais o tamanho da fonte */
+        
     }
 }
