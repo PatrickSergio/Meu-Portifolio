@@ -1,7 +1,9 @@
 .presentation{
     text-align: left;
     margin-left: 10%;
-    font-size: 20px;
+    font-size: 2rem;
+    overflow: hidden;
+    line-height: 2.5rem;
 }
 
 .presentation h1{
